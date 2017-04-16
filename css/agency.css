@@ -25,6 +25,11 @@ p {
   background-position: center;
   background-repeat: no-repeat;
 }
+#whyContent{
+  margin-top:-40px;
+  margin-left:-20px;
+}
+
 a {
   color: #fed136;
 }
@@ -136,6 +141,15 @@ fieldset[disabled] .btn-xl.active {
 .btn-xl .badge {
   color: #fed136;
   background-color: white;
+}
+.tac{
+  margin-top:-20px;
+}
+.tac a{
+  color:#bdbdbd;
+}
+#services .text-muted{
+  font-size: 1.5rem !important;
 }
 #mainNav {
   background-color: #222222;

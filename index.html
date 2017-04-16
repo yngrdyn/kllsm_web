@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="Kolliseum allows you to find a social activity in your vicinity and connect with someone to meet briefly and instantly in a friendly environment. Kolliseum is not a dating app. It's a hangout app!">
     <meta name="author" content="">
     <meta property="og:image" content="/img/logo_transparent_500.png" />
 
@@ -17,7 +17,6 @@
     <!-- Additional fonts for this theme -->
     <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="lib/jsSocial/css/jquery.floating-social-share.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -43,6 +42,20 @@
 
 <body id="page-top">
 
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Got it!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-toggleable-md" id="mainNav">
         <div class="container">
@@ -55,7 +68,16 @@
             <div class="navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto pull-right">
                     <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#why">What's kolliseum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#services">How it works</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link page-scroll" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="mailto:info@kolliseum.com">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -71,7 +93,7 @@
             <div class="intro-text">
                 <div class="row">
 	                <div class="col-lg-7">
-					<p>
+					<!--p>
 						It's for people who have some free time
 					</p>
 					<p>
@@ -79,7 +101,25 @@
 	                </p>
 					<p>
 	                	people in a friendly environment.
-	                </p>
+	                </p-->
+                    <p>
+                        Allows you to find a social activity 
+                    </p>
+                    <p>
+                        in your vicinity and connect with 
+                    </p>
+                    <p>
+                         someone to meet briefly and instantly in
+                    </p>
+                    <p>
+                         a friendly environment. 
+                    </p>
+                    <p>
+                        Kolliseum is not a dating app.
+                    </p>
+                    <p>
+                        It’s a hangout app!
+                    </p>
 	                </div>
 				</div>
 				<div class='col-lg-8 subscribe'>
@@ -107,7 +147,7 @@
     <section id="why" class="bg-faded">
         <div class="container">
             <div class="row text-center">
-                <div class="col-lg-5">
+                <div id="whyContent" class="col-lg-5">
 					<div class="col-md-12">
 						<br><Br>
 						<div class="row">
@@ -119,7 +159,7 @@
 							</div>
 							<div class="col-md-10">
 								<p class="text-muted">
-									Every now and then we find ourselves alone (when commuting, traveling for work, lunch time). All we want to do is hang out for a limited period of time, 30 minutes or maybe an hour.
+									Sometimes we are alone and have some time to kill. All we want to do is hang out for a limited period of time, maybe 30 minutes or an hour.
 								</p>
 							</div>
 						</div>
@@ -132,7 +172,7 @@
 							</div>
 							<div class="col-md-10">
 								<p class="text-muted">
-									Kolliseum allows you to find a social activity in your vicinity and connect with someone to meet briefly and immediately (for example, taking pictures, having a coffee, going to the movies, for a bike ride or a run, or any other unplanned meetup).
+									Kolliseum allows you to find a social activity in your vicinity and connect with someone to meet briefly and instantly. You can have a coffee, go to the movies or for a short run or bike ride. 
 								</p>
 							</div>
 						</div>
@@ -145,10 +185,23 @@
 							</div>
 							<div class="col-md-10">
 								<p class="text-muted">
-									In Kolliseum you say what you want to do and how much time you have available, or simply find out what somebody else is doing to join them and hang out.
+									All you have to do is look at the map, say what you want to do and connect with someone.
 								</p>
 							</div>
 						</div>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x text-primary" style='color:#01ab90 !important'></i>
+                                    <i class="fa fa-check fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </div>
+                            <div class="col-md-10">
+                                <p class="text-muted">
+                                    You don’t need to wait for organized activities or meetups. Kolliseum is for something brief and immediate. It’s not a dating app! It’s a hangout app! 
+                                </p>
+                            </div>
+                        </div>
 					</div>
                 </div>
                 <div class="col-md-7">
@@ -169,26 +222,33 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
                     </span>
-                    <p class="text-muted">Do you have some available time for a social activity?<br><small>Sign up and find out who else is around.</small></p>
+                    <p class="text-muted">Sign up and find out fun things to do in your vicinity</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                    <p class="text-muted">Create an activity to see who wants to join you, or search to see what others are doing for you to join them.</p>
+                    <p class="text-muted">Create or select the activity you want to do.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
                     </span>
-                    <p class="text-muted">Set up a meeting with someone whose social activity is interesting to you.<br><smaLL>The chat disappears in 10 minutes.</small></p>
+                    <p class="text-muted">Connect with someone and set up a meeting place. <br><smaLL style="font-size: 70%;">Meet, greet, hangout, and say goodbye.</small></p>
+                </div>
+                <div class="col-md-3">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-lock1 fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <p class="text-muted">Rate the social experience and Repeat!</p>
                 </div>
             </div>
         </div>
@@ -273,6 +333,19 @@
                         </ul>
                     </div>
                 </div>
+                <!--div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/4.jpg" class="mx-auto rounded-circle" alt="">
+                        <h4>Abraham Montilla</h4>
+                        <p class="text-muted">Senior Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item"><a target="_blank" href=""><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/abraham-montilla-45268a18/"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div-->
             </div>
         </div>
     </section>
@@ -283,13 +356,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; kolliseum 2017</span>
+                    <span class="copyright">Copyright &copy; kolliseum 2017<br></span>
+                    <small class="tac"><a href="docs/TAC.pdf">TERMS AND CONDITIONS</a></small>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a>
+                        <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/kolliseum"><i class="fa fa-twitter"></i></a>
                         </li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a>
+                        <li class="list-inline-item"><a target="_blank" href="https://twitter.com/kolliseum"><i class="fa fa-facebook"></i></a>
                         </li>
                     </ul>
                 </div>
